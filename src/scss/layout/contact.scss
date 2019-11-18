@@ -1,0 +1,68 @@
+.contact{
+    background-color: $color-black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact__box-1 {
+    text-align: center;
+    color: $color-white;
+    height: 90px;
+}
+.contact__box-1__title {
+    margin: 0;
+    padding-top: 30px;
+    font-family: $font-family-staa;
+    font-size: $font-size-subtitle;
+}
+.contact__box-1__subtitle {
+    font-family: $font-family-muli;
+    font-size: $font-size-subtitle;
+}
+.contact__box-2 {
+    background-color: $color-green;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact__box-2__ws {
+    color: $color-white;
+    font-family: $font-family-muli;
+    font-size: 1.2em;
+}
+.contact__box-2__name {
+    color: $color-white;
+    font-family: $font-family-staa;
+    font-size: 1.4em;
+    line-height: 1.4;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+.contact__box-3 {
+    text-align: center;
+    color: $color-white;
+    font-family: $font-family-staa;
+    letter-spacing: 0.2em;
+}
+.contact__box-3__title {
+    font-size: 1.6em;
+}
+.contact__box-3__link {
+    height: 30px;
+    width: 30px;
+}
+.contact__box-4 {
+    background-color: $color-grey;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+.contact__box-4__web {
+    color: $color-white;
+    font-family: $font-family-muli;
+}
+.contact__box-4__alfacoy {
+    height: 30px;
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+//Colors
+$color-green: #1BD741;
+$color-grey: #576066;
+$color-black: #282C2F;
+$color-white: #fff;
+
+//FontSizes
+$font-size-main-title: 2.5em;
+$font-size-button: 1.2em;
+$font-size-title: 1em;
+$font-size-subtitle: 1.6em;
+$font-size-text: 1em;
+$font-size-ws-section: 1em;
+
+//Font-Family
+$font-family-staa: 'Staatliches', cursive;
+$font-family-muli: 'Muli', sans-serif;
+
+//Leetter-spacing
+$spacing-1 : 0.3em;
+$spacing-2 : 0.09em;
+$spacing-subtitle : 0.2em;
+
+html{
+    line-height: 0;
+}
+body{
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+figure {
+    margin: 0;
+}

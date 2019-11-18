@@ -1,0 +1,19 @@
+.jobs {
+    background-color: $color-black;
+    height: 100px;
+}
+.jobs__title {
+    margin: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-staa;
+    font-size: $font-size-subtitle;
+    color: $color-white;
+    letter-spacing: $spacing-subtitle;
+}
+.jobs__images{
+    width: 100%;
+    height: 300px;
+}
