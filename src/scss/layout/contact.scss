@@ -51,6 +51,8 @@
 }
 .contact__box-3__title {
     font-size: 1.6em;
+    margin: 0;
+    padding-top: 30px;
     //To-change
     letter-spacing: .2em;
     color: $color-white;
@@ -68,10 +70,11 @@
 }
 .contact__box-4__web {
     color: $color-white;
+    font-size: 1em;
     //To-change
     font-family: $font-family-muli;
 }
 .contact__box-4__alfacoy {
     height: 30px;
-    width: 100%;
+    width: 150px;
 }

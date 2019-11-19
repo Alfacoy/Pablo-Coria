@@ -173,6 +173,8 @@ header {
 
 .contact__box-3__title {
   font-size: 1.6em;
+  margin: 0;
+  padding-top: 30px;
   letter-spacing: 0.2em;
   color: #fff;
 }
@@ -192,12 +194,13 @@ header {
 
 .contact__box-4__web {
   color: #fff;
+  font-size: 1em;
   font-family: "Muli", sans-serif;
 }
 
 .contact__box-4__alfacoy {
   height: 30px;
-  width: 100%;
+  width: 150px;
 }
 
 /*# sourceMappingURL=index.css.map */
