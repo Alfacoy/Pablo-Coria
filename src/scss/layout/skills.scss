@@ -3,26 +3,27 @@
     height: 300px;
 }
 .skills__box {
-    background-color: $color-grey;
     height: 300px;
-    padding: 20px 0 0 20px;
+    background-color: $color-grey;
+    padding: 30px 0 0 20px;
+}
+.skill__box--align-end {
+    text-align: end;
+    padding: 30px 20px 0 0px;
 }
 .skills__box__subtitle {
     margin: 0;
-    font-family: $font-family-staa;
+    color: $color-white;
+    //To-change
     font-size: $font-size-subtitle;
     letter-spacing: $spacing-subtitle;
-    color: $color-white;
 }
 .skills__box__text {
+    margin: 0;
+    padding-top: 20px;
+    color: $color-white;
+    line-height: 1.6;
+    //To-change
     font-family: $font-family-muli;
     font-size: $font-size-text;
-    color: $color-white;
-    padding-top: 20px;
-    margin: 0;
-    line-height: 1.6;
-}
-.skill__box__text--align-end {
-    text-align: end;
-    padding: 20px 20px 0 0px;
 }

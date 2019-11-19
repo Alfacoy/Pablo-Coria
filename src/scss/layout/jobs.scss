@@ -1,6 +1,6 @@
 .jobs {
-    background-color: $color-black;
     height: 100px;
+    background-color: $color-black;
 }
 .jobs__title {
     margin: 0;
@@ -8,9 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: $font-family-staa;
-    font-size: $font-size-subtitle;
     color: $color-white;
+    //To-change
+    font-size: $font-size-subtitle;
     letter-spacing: $spacing-subtitle;
 }
 .jobs__images{
