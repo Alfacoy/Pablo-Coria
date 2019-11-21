@@ -29,7 +29,7 @@
     font-family: $font-family-muli;
     font-size: $font-size-text;
 }
-@media screen and (min-width: 500px) and (orientation: landscape)  {
+@media screen and (min-width: 400px) and (orientation: landscape)  {
     .skills {
         display: flex;
         flex-direction: row;
