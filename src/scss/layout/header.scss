@@ -39,7 +39,7 @@
     //To-change
     font-size: $font-size-button;
 }
-@media screen and (min-width:600px) {
+@media screen and (min-width:600px) and (orientation: landscape){
     .header {
         max-height: 100vh;
     }
