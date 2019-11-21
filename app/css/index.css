@@ -19,7 +19,7 @@ figure {
   margin: 0;
 }
 
-header {
+.header {
   width: 100%;
   height: 589px;
   background-image: url("../image/photos/photo-header.jpeg");
@@ -64,6 +64,18 @@ header {
   font-size: 1.2em;
 }
 
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .header {
+    max-height: 100vh;
+  }
+
+  .header__content--position {
+    justify-content: start;
+    align-items: end;
+    padding: 0 0 50px 50px;
+    box-sizing: border-box;
+  }
+}
 .skills__image {
   width: 100%;
   height: 300px;
@@ -73,11 +85,13 @@ header {
   height: 300px;
   background-color: #576066;
   padding: 30px 0 0 20px;
+  box-sizing: border-box;
 }
 
 .skill__box--align-end {
   text-align: end;
   padding: 30px 20px 0 0px;
+  box-sizing: border-box;
 }
 
 .skills__box__subtitle {
@@ -96,6 +110,27 @@ header {
   font-size: 1em;
 }
 
+@media screen and (min-width: 600px) and (orientation: landscape) {
+  .skills {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .skills-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .skills__image {
+    width: 100%;
+  }
+
+  .skills__box {
+    width: 50%;
+  }
+}
 .jobs {
   height: 100px;
   background-color: #282C2F;

@@ -1,4 +1,4 @@
-header {
+.header {
     width: 100%;
     height: 589px;
     background-image: url("../image/photos/photo-header.jpeg");
@@ -38,4 +38,15 @@ header {
     font-weight: bold;
     //To-change
     font-size: $font-size-button;
+}
+@media screen and (min-width: 600px) and (orientation: landscape)  {
+    .header {
+        max-height: 100vh;
+    }
+    .header__content--position {
+        justify-content: start;
+        align-items: end;
+        padding: 0 0 50px 50px;
+        box-sizing: border-box;
+    }
 }

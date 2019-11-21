@@ -6,10 +6,12 @@
     height: 300px;
     background-color: $color-grey;
     padding: 30px 0 0 20px;
+    box-sizing: border-box;
 }
 .skill__box--align-end {
     text-align: end;
     padding: 30px 20px 0 0px;
+    box-sizing: border-box;
 }
 .skills__box__subtitle {
     margin: 0;
@@ -26,4 +28,22 @@
     //To-change
     font-family: $font-family-muli;
     font-size: $font-size-text;
+}
+@media screen and (min-width: 600px) and (orientation: landscape)  {
+    .skills {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .skills-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+    .skills__image {
+        width: 100%;
+    }
+    .skills__box {
+        width: 50%;
+    }
 }
