@@ -1,4 +1,15 @@
+.skills {
+    background-color: $color-grey;
+}
+.skills__box { 
+    height: 300px;
+    color: $color-white;
+}
 .skills__image {
+    height: 300px;
+}
+
+/* .skills__image {
     width: 100%;
     height: 300px;
 }
@@ -46,4 +57,4 @@
     .skills__box {
         width: 50%;
     }
-}
+} */

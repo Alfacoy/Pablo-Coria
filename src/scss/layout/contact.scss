@@ -1,9 +1,25 @@
-.contact{
+.contact {
+    background-color: $color-black;
+    color: $color-white;
+}
+.contact--ws {
+    background-color: $color-green;
+}
+.contact--foot {
+    background-color: $color-grey;
+}
+.contact__rs-img {
+    width: 3em;
+    height: 3em;
+}
+.contact__foot-img {
+    width: 40%;
+}
+/* .contact{
     height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: $color-black;
 }
 .contact__box-1 {
     height: 90px;
@@ -78,3 +94,4 @@
     height: 30px;
     width: 90px;
 }
+ */

@@ -1,4 +1,17 @@
 .header {
+    height: 80vh;
+    background-image: url("../image/photos/photo-header.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: $color-white;
+}
+@media (min-width: 700px) {
+    .header {
+        height: 100vh;
+    }
+}
+
+/* .header {
     width: 100%;
     height: 589px;
     background-image: url("../image/photos/photo-header.jpeg");
@@ -49,4 +62,4 @@
         padding: 0 0 50px 50px;
         box-sizing: border-box;
     }
-}
+} */

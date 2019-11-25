@@ -4,100 +4,105 @@
         <title>Pablo Coria</title>
         <!--MetaData-->
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!--CSS-->
         <link rel="stylesheet" href="./app/css/index.css">
         <!--GoogleFonts-->
         <link href="https://fonts.googleapis.com/css?family=Muli|Staatliches&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!--Header-->
-        <header class="header header__content--position">
-            <div class="header__content__title--position">
-                <h1 class="header__title">Titulo Principal</h1>
-                <div class="header__button">
-                    <a href="#contacto">CONTACTO</a>
+        <main class="container-fluid p-0"> 
+            <!--Header-->
+            <header class="header row flex-column justify-content-center align-content-center justify-content-md-end align-content-md-start pl-md-5 pb-md-4">
+                <h1>Pablo Coria</h1>
+                <div class="d-flex justify-content-center">
+                    <a href="#contacto" class="btn btn-success">CONTACTO</a>
                 </div>
-            </div>
-        </header>
-
-        <!--Skills-->
-        <section>
-            <article class="skills">
-                <figure>
-                    <img class="skills__image" src="./app/image/photos/photo-1-mobile.png" alt="Trabajos en albañileria">
-                </figure>
-                <div class="skills__box">
-                    <h3 class="skills__box__subtitle">ALBAÑILERIA</h3>
-                    <p class="skills__box__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam unde 
-                        nobis facilis optio, neque aliquam modi fuga animi autem consectetur tempora vitae 
-                        saepe? Aliquid at fugiat accusamus ipsam molestiae.
-                    </p>
-                </div>
-            </article>
-            <article class="skills-reverse">
-                <figure>
-                    <img class="skills__image" src="./app/image/photos/photo-2-mobile.png" alt="Trabajos en herreria">
-                </figure>
-                <div class="skills__box skill__box--align-end">
-                        <h3 class="skills__box__subtitle">HERRERIA</h3>
-                        <p class="skills__box__text">
+            </header>
+            
+            <!--Skills-->
+            <section class="skills">
+                <article class="row flex-md-row-reverse">
+                    <figure class="col-sm-12 col-md-6">
+                        <img class="img-fluid skills__image" src="./app/image/photos/photo-1-mobile.png" alt="Trabajos en albañileria">
+                    </figure>
+                    <div class="skills__box col-sm-12 col-md-6">
+                        <h3 class="pl-3 pt-3">ALBAÑILERIA</h3>
+                        <p class="px-3">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam unde 
                             nobis facilis optio, neque aliquam modi fuga animi autem consectetur tempora vitae 
                             saepe? Aliquid at fugiat accusamus ipsam molestiae.
                         </p>
                     </div>
                 </article>
-        </section>
-
-        <!--Jobs-->
-        <section>
-            <div class="jobs">
-                <h4 class="jobs__title">¡MÁS TRABAJOS!</h4>
-            </div>
-            <article>
-                <figure>
-                    <img class="jobs__images" src="./app/image/photos/photo-3-mobile.png" alt="">
-                </figure>
-                <figure>
-                    <img class="jobs__images" src="./app/image/photos/photo-4-mobile.png" alt="">
-                </figure>
-                <figure>
-                    <img class="jobs__images" src="./app/image/photos/photo-5-mobile.png" alt="">
-                </figure>
-                <figure>
-                    <img class="jobs__images" src="./app/image/photos/photo-6-mobile.png" alt="">
-                </figure>
-            </article>
-        </section>
-
-        <!--Contacto-->
-        <footer id="contacto" class="contact">
-            <div class="contact__box-1">
-                <h4 class="contact__box-1__title">CONTACTO</h4>
-                <p class="contact__box-1__subtitle">Argentina - Buenos Aires</p>
-            </div>
-            <div class="contact__box-2">
-                <div class="contact__box-2__ws">
-                    <p>WHATSAPP</p>
-                    <p><a href="https://wa.me/541124896509?text=Me%20gustaria%20pedir%20un%20presupuesto!" target="_blank">11 2489 6509</a></p>
+                <article class="row">
+                    <figure class="col-sm-12 col-md-6">
+                        <img class="img-fluid skills__image" src="./app/image/photos/photo-2-mobile.png" alt="Trabajos en herreria">
+                    </figure>
+                    <div class="skills__box col-sm-12 col-md-6">
+                        <h3 class="pl-3 pt-3">HERRERIA</h3>
+                        <p class="px-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quibusdam unde 
+                            nobis facilis optio, neque aliquam modi fuga animi autem consectetur tempora vitae 
+                            saepe? Aliquid at fugiat accusamus ipsam molestiae.
+                        </p>
+                    </div>
+                </article>
+            </section>
+            
+            <!--Jobs-->
+            <section class="jobs">
+                <div class="jobs__title-box row justify-content-center align-content-center">
+                    <h4>¡MÁS TRABAJOS!</h4>
                 </div>
-                <div class="contact__box-2__name">
-                    <p>PABLO<br>CORIA</p>
+                <article>
+                    <figure>
+                        <img class="jobs__img img-fluid" src="./app/image/photos/photo-3-mobile.png" alt="">
+                    </figure>
+                    <figure>
+                        <img class="jobs__img img-fluid" src="./app/image/photos/photo-4-mobile.png" alt="">
+                    </figure>
+                    <figure>
+                        <img class="jobs__img img-fluid" src="./app/image/photos/photo-5-mobile.png" alt="">
+                    </figure>
+                    <figure>
+                        <img class="jobs__img img-fluid" src="./app/image/photos/photo-6-mobile.png" alt="">
+                    </figure>
+                </article>
+            </section>
+            
+            <!--Contacto-->
+            <footer id="contacto" class="contact">
+                <div class="row flex-column">
+                    <div class="d-flex justify-content-center">
+                        <h4>CONTACTO</h4>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <p class="lead">Argentina - Buenos Aires</p>
+                    </div>
                 </div>
-            </div>
-            <div class="contact__box-3">
-                <h4 class="contact__box-3__title">REDES SOCIALES</h4>
-                <p>
-                    <a href=""><img class="contact__box-3__link" src="./app/image/instagram-logo.svg" alt="Visita mi Instagram"></a>
-                </p>
-            </div>
-            <div class="contact__box-4">
-                <p class="contact__box-4__web">©PabloCoria 2019</p>
-                <a href=""><img class="contact__box-4__alfacoy" src="./app/image/logoAlfacoy.png" alt="Diseño y Desarrollo hecho por Alfacoy"></a>
-            </div>
-        </footer>
+                <div class="contact--ws row justify-content-around m-0">
+                    <div class="py-3">
+                        <p class="m-0 lead">WHATSAPP</p>
+                        <a href="https://wa.me/541124896509?text=Me%20gustaria%20pedir%20un%20presupuesto!" target="_blank">11 2489 6509</a>
+                    </div>
+                    <div class="py-3">
+                        <p class="lead">PABLO<br>CORIA</p>
+                    </div>
+                </div>
+                <div class="row flex-column">
+                    <div class="d-flex justify-content-center">
+                        <h4>REDES SOCIALES</h4>
+                    </div>
+                    <div class="d-flex justify-content-center pb-3">
+                        <a href="" target="_blank"><img class="img-fluid contact__rs-img" src="./app/image/instagram-logo.svg" alt="Visita mi Instagram"></a>
+                    </div>
+                </div>
+                <div class="contact--foot row justify-content-center">
+                    <p class="lead">©PabloCoria 2019</p>
+                    <a href=""><img class="img-fluid contact__foot-img" src="./app/image/logoAlfacoy.png" alt="Diseño y Desarrollo hecho por Alfacoy"></a>
+                </div>
+            </footer>
+        </main>
     </body>
 </html>
