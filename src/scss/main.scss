@@ -1,6 +1,26 @@
-@import './../../node_modules/bootstrap/scss/bootstrap.scss';
-@import './layout/general.scss';
-@import './layout/header.scss';
-@import './layout/skills.scss';
-@import './layout/jobs.scss';
-@import './layout/contact.scss';
+body {
+    margin: 0;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../image/photos/photo-header.jpeg");
+    background-position: bottom;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 700px) { 
+    .header {
+        justify-content: end;
+    }
+}
