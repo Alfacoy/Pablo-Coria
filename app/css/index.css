@@ -29,7 +29,7 @@
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
-  --breakpoint-md: 650px;
+  --breakpoint-md: 600px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -548,7 +548,7 @@ pre code {
     max-width: 540px;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .container {
     max-width: 720px;
   }
@@ -958,7 +958,7 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .col-md {
     flex-basis: 0;
     flex-grow: 1;
@@ -1769,7 +1769,7 @@ pre code {
     border: 0;
   }
 }
-@media (max-width: 649.98px) {
+@media (max-width: 599.98px) {
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -2849,7 +2849,7 @@ input[type=button].btn-block {
     left: auto;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .dropdown-menu-md-left {
     right: auto;
     left: 0;
@@ -3872,14 +3872,14 @@ input[type=button].btn-block {
     display: none;
   }
 }
-@media (max-width: 649.98px) {
+@media (max-width: 599.98px) {
   .navbar-expand-md > .container,
 .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .navbar-expand-md {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -4835,7 +4835,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-bottom-left-radius: 0;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .list-group-horizontal-md {
     flex-direction: row;
   }
@@ -6061,7 +6061,7 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .d-md-none {
     display: none !important;
   }
@@ -6523,7 +6523,7 @@ button.bg-dark:focus {
     align-self: stretch !important;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .flex-md-row {
     flex-direction: row !important;
   }
@@ -6959,7 +6959,7 @@ button.bg-dark:focus {
     float: none !important;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .float-md-left {
     float: left !important;
   }
@@ -8027,7 +8027,7 @@ button.bg-dark:focus {
     margin-left: auto !important;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .m-md-0 {
     margin: 0 !important;
   }
@@ -9373,7 +9373,7 @@ button.bg-dark:focus {
     text-align: center !important;
   }
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   .text-md-left {
     text-align: left !important;
   }
