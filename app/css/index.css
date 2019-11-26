@@ -129,30 +129,128 @@ img {
         width: 50%;
     }
 } */
-/* .header {
-    height: 100vh;
-    width: 100%;
-    background-image: url("../image/photos/photo-header.jpeg");
-    background-position: bottom;
-    background-size: cover;
+.jobs {
+  background-color: #282C2F; }
 
+.jobs__title-box {
+  height: 100px;
+  color: #fff; }
+
+.jobs__img {
+  height: 300px; }
+
+/*
+.jobs__title {
+    margin: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-white;
+    //To-change
+    font-size: $font-size-subtitle;
+    letter-spacing: $spacing-subtitle;
+}
+.jobs__images{
+    width: 100%;
+    height: 300px;
+} 
+*/
+.contact {
+  background-color: #282C2F;
+  color: #fff; }
+
+.contact--ws {
+  background-color: #1BD741; }
+
+.contact--foot {
+  background-color: #576066; }
+
+.contact__rs-img {
+  width: 3em;
+  height: 3em; }
+
+.contact__foot-img {
+  width: 40%; }
+
+/* .contact{
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    color: #fff;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-transform: uppercase;
 }
-
-@media only screen and (min-width: 500px) { 
-    .header {
-        justify-content: flex-end;
-
-        color: red;
-    }
+.contact__box-1 {
+    height: 90px;
+    text-align: center;
+    color: $color-white;
+}
+.contact__box-1__title {
+    margin: 0;
+    padding-top: 35px;
+    letter-spacing: .2em;
+    //To-change
+    font-size: $font-size-subtitle;
+}
+.contact__box-1__subtitle {
+    padding: 30px 0 30px 0;
+    margin: 0;
+    //To-change
+    font-family: $font-family-muli;
+    font-size: $font-size-subtitle;
+}
+.contact__box-2 {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-green;
+}
+.contact__box-2__ws {
+    color: $color-white;
+    //To-change
+    font-family: $font-family-muli;
+    font-size: 1.2em;
+}
+.contact__box-2__name {
+    color: $color-white;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 1.4em;
+    letter-spacing: 0.2em;
+    //To-change
+    font-family: $font-family-staa;
+}
+.contact__box-3 {
+    text-align: center;
+}
+.contact__box-3__title {
+    font-size: 1.6em;
+    margin: 0;
+    padding-top: 30px;
+    //To-change
+    letter-spacing: .2em;
+    color: $color-white;
+}
+.contact__box-3__link {
+    height: 30px;
+    width: 30px;
+}
+.contact__box-4 {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding: 0 5px;
+    background-color: $color-grey;
+}
+.contact__box-4__web {
+    color: $color-white;
+    font-size: 1em;
+    //To-change
+    font-family: $font-family-muli;
+}
+.contact__box-4__alfacoy {
+    height: 30px;
+    width: 90px;
 }
  */
 
