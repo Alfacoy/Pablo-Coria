@@ -16,20 +16,20 @@
     background-color: $color-green;
 
     div > p {
-        margin: 0;
+        margin-bottom: 0;
         font-size: $font-size-ws;
         font-weight: bold;
-    }
-    div > p:first-child {
-        margin-top: 20.8px
     }
     div > a {
         color: $color-black;
         font-size: $font-size-ws;
+        font-family: $font-family-muli;
+        font-weight: bold;
     }
     p {
         font-size: $font-size-ws + 0.1;
         font-weight: bold;
+        letter-spacing: $spacing-3;
     }
 }
 .contact__rs-img {
