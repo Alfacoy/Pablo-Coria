@@ -56,6 +56,9 @@ img {
     align-items: flex-start;
     padding: 0 0 65px 50px;
     box-sizing: border-box; } }
+@media only screen and (min-width: 1000px) {
+  .header {
+    align-items: center; } }
 .skills {
   background-color: #576066; }
 
@@ -173,5 +176,13 @@ img {
   .contact--foot a > img {
     width: 100px;
     height: auto; }
+
+@media only screen and (min-width: 1000px) {
+  .contact--ws {
+    justify-content: center; }
+    .contact--ws div {
+      margin-right: 30px; }
+    .contact--ws p {
+      margin-left: 30px; } }
 
 /*# sourceMappingURL=index.css.map */
