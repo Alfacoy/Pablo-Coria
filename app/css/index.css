@@ -112,9 +112,11 @@ img {
   justify-content: space-around;
   background-color: #1BD741; }
   .contact--ws div > p {
-    margin-bottom: 0;
+    margin: 0;
     font-size: 1.2em;
     font-weight: bold; }
+  .contact--ws div > p:first-child {
+    margin-top: 20.8px; }
   .contact--ws div > a {
     color: #282C2F;
     font-size: 1.2em; }
