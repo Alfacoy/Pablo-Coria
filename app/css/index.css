@@ -74,12 +74,29 @@ img {
   height: 300px; }
 
 @media only screen and (min-width: 550px) {
-  .skills {
+  .skills > div {
     display: flex; }
 
   .skills__box--align-end {
     text-align: start;
     padding: 20px 0 0 20px; } }
+@media only screen and (min-width: 1000px) {
+  .skills > div {
+    padding: 10px 0;
+    box-sizing: border-box;
+    justify-content: space-around; }
+    .skills > div article {
+      max-width: 35%;
+      background-color: #282C2F;
+      border-radius: 10px;
+      box-shadow: 3px 6px 10px black; }
+      .skills > div article img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; } }
+@media only screen and (min-width: 1300px) {
+  .skills > div {
+    max-width: 1200px;
+    margin: 0 auto; } }
 .jobs {
   background-color: #282C2F; }
 
@@ -94,11 +111,29 @@ img {
   width: 100%;
   height: 300px; }
 
+.jobs__img-box figure:nth-child(5) {
+  display: none; }
+.jobs__img-box figure:nth-child(6) {
+  display: none; }
+
 @media only screen and (min-width: 550px) {
   .jobs__img-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 300px); } }
+@media only screen and (min-width: 1000px) {
+  .jobs__img-box {
+    grid-template-columns: repeat(3, 1fr); }
+    .jobs__img-box figure:nth-child(5) {
+      display: block; }
+    .jobs__img-box figure:nth-child(6) {
+      display: block; } }
+@media only screen and (min-width: 1300px) {
+  .jobs__img-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; } }
 .contact {
   background-color: #282C2F;
   color: #fff;

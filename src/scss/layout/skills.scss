@@ -17,11 +17,35 @@
     height: 300px;
 }
 @media only screen and (min-width:550px){
-    .skills {
+    .skills > div{
         display: flex;
     }
     .skills__box--align-end {
         text-align: start;
         padding: 20px 0 0 20px;
+    }
+}
+@media only screen and (min-width:1000px){
+    .skills > div {
+        padding: 10px 0;
+        box-sizing: border-box;
+        justify-content: space-around;
+        article {
+            max-width: 35%;
+            background-color: $color-black;
+            border-radius: 10px;
+            box-shadow: 3px 6px 10px black;
+
+            img {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+        }
+    }
+}
+@media only screen and (min-width:1300px){
+    .skills > div {
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }
