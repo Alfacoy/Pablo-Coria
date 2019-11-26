@@ -54,7 +54,7 @@ img {
     height: 100vh;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 0 0 60px 50px;
+    padding: 0 0 65px 50px;
     box-sizing: border-box; } }
 .skills {
   background-color: #576066; }
@@ -110,8 +110,17 @@ img {
   padding: 10px 0;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   background-color: #1BD741; }
+  .contact--ws div > p {
+    margin-bottom: 0;
+    font-size: 1.2em;
+    font-weight: bold; }
+  .contact--ws div > a {
+    color: #282C2F;
+    font-size: 1.2em; }
+  .contact--ws p {
+    font-size: 1.3em;
+    font-weight: bold; }
 
 .contact__rs-img {
   width: 3em;

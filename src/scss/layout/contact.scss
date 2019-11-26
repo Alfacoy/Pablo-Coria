@@ -12,9 +12,22 @@
     padding: 10px 0;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 
     background-color: $color-green;
+
+    div > p {
+        margin-bottom: 0;
+        font-size: $font-size-ws;
+        font-weight: bold;
+    }
+    div > a {
+        color: $color-black;
+        font-size: $font-size-ws;
+    }
+    p {
+        font-size: $font-size-ws + 0.1;
+        font-weight: bold;
+    }
 }
 .contact__rs-img {
     width: 3em;
