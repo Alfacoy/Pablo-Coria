@@ -11,6 +11,11 @@
     align-items: center;
 
     color: $color-white;
+
+    h1 {
+        font-size: $font-size-title-header;
+        letter-spacing: $spacing-1;
+    }
 }
 .header__button { 
     width: 135px;
@@ -23,22 +28,21 @@
     border: 1px solid $color-green;
     border-radius: 8px;
     background-color: $color-green;
-    //To-change
+
     font-family: $font-family-staa;
-    letter-spacing: $spacing-1;
+    font-size: $font-size-btn-header;
+    letter-spacing: $spacing-2;
 }
 .header__button a {
     color: $color-white;
     font-weight: bold;
-    //To-change
-    font-size: $font-size-button;
 }
 @media only screen and (min-width:550px){
     .header {
         height: 100vh;
         justify-content: flex-end;
         align-items: flex-start;
-        padding: 0 0 50px 50px;
+        padding: 0 0 60px 50px;
         box-sizing: border-box;
     }
 }
