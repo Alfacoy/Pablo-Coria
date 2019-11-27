@@ -126,7 +126,15 @@ img {
 
 .jobs__img {
   width: 100%;
-  height: 300px; }
+  height: 300px;
+  opacity: .5; }
+
+.jobs__img:hover {
+  opacity: 1;
+  border-radius: 10px;
+  transform: scale(1.1, 1.1);
+  box-shadow: 3px 4px black;
+  z-index: 1; }
 
 .jobs__img-box figure:nth-child(5) {
   display: none; }
