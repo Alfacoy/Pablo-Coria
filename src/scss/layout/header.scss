@@ -34,17 +34,10 @@
     font-size: $font-size-btn-header;
     letter-spacing: $spacing-2;
 }
-.header__button:hover {
-    transform: translateY(-2px);
-    background-color: transparent;
-}
 .header__button a {
     padding: 15px;
     color: $color-white;
     font-weight: bold;
-}
-.header__button a:hover{
-    color: $color-green;
 }
 @media only screen and (min-width:550px){
     .header {
@@ -59,4 +52,13 @@
     .header {
         align-items: center;
     }
-}
+}   
+@media only screen and (min-width:1300px){
+    .header__button:hover {
+        transform: translateY(-2px);
+        background-color: transparent;
+    }
+    .header__button a:hover{
+        color: $color-green;
+    }
+}   
