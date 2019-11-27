@@ -47,7 +47,6 @@ img {
 
 .header__button:hover {
   transform: translateY(-2px);
-  cursor: pointer;
   background-color: transparent; }
 
 .header__button a {
