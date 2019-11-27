@@ -17,6 +17,12 @@
     height: 300px;
 }
 @media only screen and (min-width:550px){
+    .skills {
+        background-image: -webkit-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
+        background-image: -moz-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
+        background-image: -o-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
+        background-image: linear-gradient(to bottom, #000, #020202, #282c2f);
+    }
     .skills > div{
         display: flex;
     }

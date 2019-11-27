@@ -41,6 +41,10 @@ img {
   border: 1px solid #1BD741;
   border-radius: 8px;
   background-color: #1BD741;
+  background-image: -webkit-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
+  background-image: -moz-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
+  background-image: -o-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
+  background-image: linear-gradient(to top, #3e7a4a, #1BD741, #3e7a4a);
   font-family: "Staatliches", cursive;
   font-size: 1.3em;
   letter-spacing: 0.2em; }
@@ -77,6 +81,12 @@ img {
   height: 300px; }
 
 @media only screen and (min-width: 550px) {
+  .skills {
+    background-image: -webkit-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
+    background-image: -moz-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
+    background-image: -o-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
+    background-image: linear-gradient(to bottom, #000, #020202, #282c2f); }
+
   .skills > div {
     display: flex; }
 
@@ -148,7 +158,11 @@ img {
   padding: 10px 0;
   display: flex;
   justify-content: space-around;
-  background-color: #1BD741; }
+  background-color: #1BD741;
+  background-image: -webkit-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
+  background-image: -moz-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
+  background-image: -o-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
+  background-image: linear-gradient(to right, #3e7a4a, #1BD741, #3e7a4a); }
   .contact--ws div > p {
     margin-bottom: 0;
     font-size: 1.2em;

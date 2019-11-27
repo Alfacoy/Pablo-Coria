@@ -14,6 +14,10 @@
     justify-content: space-around;
 
     background-color: $color-green;
+    background-image: -webkit-linear-gradient linear-gradient(right, #3e7a4a,#1BD741, #3e7a4a);
+    background-image: -moz-linear-gradient linear-gradient(right, #3e7a4a,#1BD741, #3e7a4a);
+    background-image: -o-linear-gradient linear-gradient(right, #3e7a4a,#1BD741, #3e7a4a);
+    background-image: linear-gradient(to right, #3e7a4a,#1BD741, #3e7a4a);
 
     div > p {
         margin-bottom: 0;
