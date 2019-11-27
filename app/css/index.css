@@ -45,9 +45,18 @@ img {
   font-size: 1.3em;
   letter-spacing: 0.2em; }
 
+.header__button:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+  background-color: transparent; }
+
 .header__button a {
+  padding: 15px;
   color: #fff;
   font-weight: bold; }
+
+.header__button a:hover {
+  color: #1BD741; }
 
 @media only screen and (min-width: 550px) {
   .header {
@@ -191,8 +200,6 @@ img {
   .contact--ws {
     justify-content: center; }
     .contact--ws div {
-      margin-right: 30px; }
-    .contact--ws p {
-      margin-left: 30px; } }
+      margin-right: 60px; } }
 
 /*# sourceMappingURL=index.css.map */
