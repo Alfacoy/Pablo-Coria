@@ -60,7 +60,7 @@ img {
   .header {
     align-items: center; } }
 .skills {
-  background-color: #576066; }
+  background-color: #222; }
 
 .skills__box {
   height: 300px;
@@ -172,7 +172,7 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #576066; }
+  background-color: #222; }
   .contact--foot a > img {
     width: 100px;
     height: auto; }
