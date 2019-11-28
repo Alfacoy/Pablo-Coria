@@ -54,11 +54,15 @@
     }
     .jobs__img:hover {
         opacity: 1;
-        transform: scale(1.1,1.1);
+        
+        -webkit-transform: scale(1.1,1.1);
+        -ms-transform: scale(1.1,1.1);
+            transform: scale(1.1,1.1);
+
 
         -webkit-box-shadow: 3px 6px 10px black;
-        box-shadow: 3px 6px 10px black;
-        
+            box-shadow: 3px 6px 10px black;
+
         z-index: 1;
     }
 }
