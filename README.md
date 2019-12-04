@@ -1,3 +1,3 @@
 # Pablo Coria
 
-![Pablito](./app/image/readme-img.png)
+![Pablito](./app/image/readme-pablo.png)
