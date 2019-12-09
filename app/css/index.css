@@ -11,6 +11,13 @@ h3 {
 p {
   font-family: "Muli", sans-serif; }
 
+ul {
+  padding: 0; }
+
+li {
+  list-style: none;
+  font-family: "Muli", sans-serif; }
+
 a {
   text-decoration: none; }
 
@@ -23,10 +30,19 @@ img {
   background-image: url("../image/photos/photo-header.jpeg");
   background-position: bottom;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff; }
   .header h1 {
     font-size: 2.5em;
@@ -35,9 +51,15 @@ img {
 .header__button {
   width: 135px;
   height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: 1px solid #1BD741;
   border-radius: 8px;
   background-color: #1BD741;
@@ -53,16 +75,24 @@ img {
 @media only screen and (min-width: 550px) {
   .header {
     height: 100vh;
-    justify-content: flex-end;
-    align-items: flex-start;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     padding: 0 0 65px 50px;
-    box-sizing: border-box; } }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; } }
 @media only screen and (min-width: 1000px) {
   .header {
-    align-items: center; } }
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
 @media only screen and (min-width: 1300px) {
   .header__button:hover {
-    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
     background-color: transparent; }
 
   .header__button a:hover {
@@ -73,25 +103,40 @@ img {
 .skills__box {
   height: 300px;
   padding: 20px 0 0 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #fff; }
+
+.skills__box h3 {
+  text-align: center; }
+
+.skills__box > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .skills__box > div ul:nth-child(2) {
+    padding-left: 30%; }
 
 .skills__box--align-end {
   text-align: end;
   padding: 20px 20px 0 0px;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .skills__image {
   height: 300px; }
 
 @media only screen and (min-width: 550px) {
   .skills {
-    background-image: -webkit-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
-    background-image: -moz-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
-    background-image: -o-linear-gradient linear-gradient(bottom, #000, #020202, #282c2f);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(#020202), to(#282c2f));
     background-image: linear-gradient(to bottom, #000, #020202, #282c2f); }
 
   .skills > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
 
   .skills__box--align-end {
@@ -100,13 +145,16 @@ img {
 @media only screen and (min-width: 1000px) {
   .skills > div {
     padding: 10px 0;
-    box-sizing: border-box;
-    justify-content: space-around; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
     .skills > div article {
       max-width: 35%;
       background-color: #282C2F;
       border-radius: 10px;
-      box-shadow: 3px 6px 10px black; }
+      -webkit-box-shadow: 3px 6px 10px black;
+              box-shadow: 3px 6px 10px black; }
       .skills > div article img {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px; } }
@@ -119,9 +167,15 @@ img {
 
 .jobs__title-box {
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff; }
 
 .jobs__img {
@@ -158,8 +212,10 @@ img {
 
   .jobs__img:hover {
     opacity: 1;
-    transform: scale(1.1, 1.1);
-    box-shadow: 3px 6px 10px black;
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-box-shadow: 3px 6px 10px black;
+            box-shadow: 3px 6px 10px black;
     z-index: 1; } }
 .contact {
   background-color: #282C2F;
@@ -170,12 +226,13 @@ img {
 
 .contact--ws {
   padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background-color: #1BD741;
-  background-image: -webkit-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
-  background-image: -moz-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
-  background-image: -o-linear-gradient linear-gradient(right, #3e7a4a, #1BD741, #3e7a4a);
+  background-image: -webkit-gradient(linear, left top, right top, from(#3e7a4a), color-stop(#1BD741), to(#3e7a4a));
   background-image: linear-gradient(to right, #3e7a4a, #1BD741, #3e7a4a); }
   .contact--ws div > p {
     margin-bottom: 0;
@@ -197,9 +254,14 @@ img {
   padding: 10px 0; }
 
 .contact--foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #222; }
   .contact--foot a > img {
     width: 100px;
@@ -207,7 +269,9 @@ img {
 
 @media only screen and (min-width: 1000px) {
   .contact--ws {
-    justify-content: center; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     .contact--ws div {
       margin-right: 60px; } }
 

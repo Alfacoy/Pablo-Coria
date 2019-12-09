@@ -34,6 +34,13 @@ h3 {
 p {
     font-family: $font-family-muli;
 }
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+    font-family: $font-family-muli;
+}
 a {
     text-decoration: none;
 }
