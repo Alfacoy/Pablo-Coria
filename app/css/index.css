@@ -27,7 +27,7 @@ img {
 .header {
   height: 80vh;
   width: 100%;
-  background-image: url("../image/photos/photo-header.jpeg");
+  background-image: url("../image/photos/photo-header.png");
   background-position: bottom;
   background-size: cover;
   display: -webkit-box;
@@ -70,7 +70,8 @@ img {
 .header__button a {
   padding: 15px;
   color: #fff;
-  font-weight: bold; }
+  font-weight: bold;
+  text-shadow: 2px 2px 10px black; }
 
 @media only screen and (min-width: 550px) {
   .header {
@@ -131,8 +132,8 @@ img {
 
 @media only screen and (min-width: 550px) {
   .skills {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(#020202), to(#282c2f));
-    background-image: linear-gradient(to bottom, #000, #020202, #282c2f); }
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#010101), color-stop(#020202), to(#282c2f));
+    background-image: linear-gradient(to bottom, #010101, #020202, #282c2f); }
 
   .skills > div {
     display: -webkit-box;

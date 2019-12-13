@@ -1,7 +1,7 @@
 .header {
     height: 80vh;
     width: 100%;
-    background-image: url("../image/photos/photo-header.jpeg");
+    background-image: url("../image/photos/photo-header.png");
     background-position: bottom;
     background-size: cover;
 
@@ -38,6 +38,7 @@
     padding: 15px;
     color: $color-white;
     font-weight: bold;
+    text-shadow: 2px 2px 10px black;
 }
 @media only screen and (min-width:550px){
     .header {
