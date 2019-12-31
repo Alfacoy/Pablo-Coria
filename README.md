@@ -1,4 +1,4 @@
-# Pablo Coria
+# Pablo Coria ( Falta que me de sus imágenes )
 ### https://alfacoy.github.io/Pablo-Coria/
 
 ![Pablito](./app/image/readme-pablo.png)
