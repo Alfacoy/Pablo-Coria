@@ -27,7 +27,7 @@ img {
 .header {
   height: 80vh;
   width: 100%;
-  background-image: url("../image/photos/photo-header.png");
+  background-image: url("../image/photos/photo-pablo-5.png");
   background-position: bottom;
   background-size: cover;
   display: -webkit-box;
@@ -46,7 +46,12 @@ img {
   color: #fff; }
   .header h1 {
     font-size: 2.5em;
-    letter-spacing: 0.1em; }
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 20px black; }
+  .header h2 {
+    margin-top: 0;
+    text-shadow: 1px 1px 20px black; }
 
 .header__button {
   width: 135px;
@@ -75,7 +80,7 @@ img {
 
 @media only screen and (min-width: 550px) {
   .header {
-    height: 100vh;
+    height: 80vh;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;

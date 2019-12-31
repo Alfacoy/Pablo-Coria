@@ -1,7 +1,7 @@
 .header {
     height: 80vh;
     width: 100%;
-    background-image: url("../image/photos/photo-header.png");
+    background-image: url("../image/photos/photo-pablo-5.png");
     background-position: bottom;
     background-size: cover;
 
@@ -15,6 +15,12 @@
     h1 {
         font-size: $font-size-title-header;
         letter-spacing: $spacing-1;
+        margin-bottom: 0;
+        text-shadow: 1px 1px 20px black;
+    }
+    h2 {
+        margin-top: 0;
+        text-shadow: 1px 1px 20px black;
     }
 }
 .header__button { 
@@ -42,7 +48,7 @@
 }
 @media only screen and (min-width:550px){
     .header {
-        height: 100vh;
+        height: 80vh;
         justify-content: flex-end;
         align-items: flex-start;
         padding: 0 0 65px 50px;
