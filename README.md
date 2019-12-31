@@ -22,7 +22,7 @@ Para los colores decidí usar un una escala de grises, no soy muy entendido del 
 * **$color-black**: #282C2F
 * **$color-white**: #fff
 
-Respecto al área donde detallo las experiencias que tuvo en ambos oficios (Albañilería y Herrería), siento que podría mejorar su diseño. Seguramente a futuro aprenda algo nuevo y pueda mejorarla. Por el momento cumple lo requerido de dar una introducción a sus experiencias.
+Respecto al área donde detallo las experiencias que tuvo en ambos oficios (Albañilería y Herrería), siento que podría mejorar su diseño. Seguramente a futuro aprenda algo nuevo y pueda mejorarla. Por el momento cumple lo requerido de dar una introducción a sus experiencias. (Esta sección la borre, me hacia mucho ruido y no aportaba mucho).
 
 La imágenes en la sección de “Mis Trabajos” están conectadas con **Instagram** con la intención de que ahí puedan encontrar más fotos. Considero que hoy en día Instagram como aplicación ayuda muchisimo a el pequeño y mediano emprendedor, ya que da la posibilidad de mostrar el trabajo que hacen y compartirlo fácilmente. Además al poder utilizarla desde el celular le da un impulso gigante para aquellas personas que no disponen de una computadora o simplemente no las entienden.
 
