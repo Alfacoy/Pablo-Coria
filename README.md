@@ -1,4 +1,4 @@
-# Pablo Coria ( Falta que me de sus imágenes )
+# Pablo Coria
 ### http://pablocoria.com.ar/
 
 Bueno! Fue la primera página que arme para alguien real de carne y hueso (?). Espero que le sirva mucho y pueda aumentar los Request de trabajos.
