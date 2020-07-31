@@ -1,8 +1,6 @@
 # Pablo Coria ( Falta que me de sus imágenes )
 ### http://pablocoria.com.ar/
 
-![Pablito](./app/image/readme-pablo.png)
-
 Bueno! Fue la primera página que arme para alguien real de carne y hueso (?). Espero que le sirva mucho y pueda aumentar los Request de trabajos.
 
 ---
